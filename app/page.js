@@ -32,12 +32,14 @@ export default function Home() {
               Shorten a URL →
             </Link>
 
-            <Link
-              href="/github"
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-xl border border-slate-200 bg-white px-6 py-3 font-semibold text-slate-700 shadow-sm transition duration-300 hover:-translate-y-0.5 hover:border-purple-200 hover:text-purple-600"
             >
               View on GitHub
-            </Link>
+            </a>
           </div>
 
           <div className="mt-8 flex items-center gap-6 text-sm text-slate-500">

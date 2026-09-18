@@ -23,21 +23,8 @@ const Footer = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path
-                    d="M192 160
-                       C225 120 287 120 320 160
-                       L352 192
-                       C382 222 382 258 352 288
-                       L320 320"
-                  />
-
-                  <path
-                    d="M320 352
-                       C287 392 225 392 192 352
-                       L160 320
-                       C130 290 130 254 160 224
-                       L192 192"
-                  />
+                  <path d="M192 160 C225 120 287 120 320 160 L352 192 C382 222 382 258 352 288 L320 320" />
+                  <path d="M320 352 C287 392 225 392 192 352 L160 320 C130 290 130 254 160 224 L192 192" />
                 </g>
 
                 <path
@@ -89,9 +76,14 @@ const Footer = () => {
               </h3>
 
               <div className="flex flex-col gap-3 text-sm text-slate-400">
-                <Link href="/github" className="transition hover:text-white">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-white"
+                >
                   GitHub
-                </Link>
+                </a>
 
                 <a
                   href="mailto:nids@shrinka.dev"
